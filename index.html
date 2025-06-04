@@ -2,15 +2,55 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>IIIF 3D Workshop Leeds 2025</title>
+    <title>IIIF 3D Workshop Leeds 2025 Resources</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="favicon.ico" />
   </head>
 
   <body>
     <div class="d-flex flex-column align-items-center p-4">
-      <h2>IIIF 3D Workshop Leeds 2025</h2>
+      <h2>IIIF 3D Workshop Leeds 2025 Resources</h2>
+
+      <div class="section">
+        <h3>
+          3D Manifests
+        </h3>
+        <p>All of the 3D TSG manifests can be found <a href="https://github.com/IIIF/3d/tree/main/manifests">here</a>, but we list specific useful manifests below.</p>
+
+        <ul>
+          <li>Single Model in Scene: <a href="https://raw.githubusercontent.com/IIIF/3d/main/manifests/1_basic_model_in_scene/model_origin.json">https://raw.githubusercontent.com/IIIF/3d/main/manifests/1_basic_model_in_scene/model_origin.json</a></li>
+        </ul>
+      </div>
+
+
+      <div class="section">
+        <h3>
+          Easily Combine Manifest with Viewer URL
+        </h3>
+        <p>Paste a manifest URL in this tool and it will give you links to all the viewers loading that manifest.</p>
+
+        <ul>
+          <li>Secure URL Builder: <a href="https://veholder.org/iiif3d/test.php">https://veholder.org/iiif3d/test.php</a></li>
+        </ul>
+      </div>
+
+      <div class="section">
+        <h3>
+          Viewers
+        </h3>
+        <p>These links won't load any content, they need manifests supplied!</p>
+
+        <ul>
+          <li>MorphoSource Aleph + UV: <a href="https://www.morphosource.org/uv/uv.html#?manifest=">https://www.morphosource.org/uv/uv.html#?manifest=</a></li>
+          <li>Smithsonian Voyager: <a href="https://smithsonian.github.io/dpo-voyager/docs/iiif_demo?document=">https://smithsonian.github.io/dpo-voyager/docs/iiif_demo?document=</a></li>
+          <li>UV + Google Model Viewer: <a href="https://uv-v4.netlify.app/#?manifest=">https://uv-v4.netlify.app/#?manifest=a</a></li>
+          <li>X3D: <a href="https://spri-open-resources.s3.us-east-2.amazonaws.com/iiif3dtsg/manifest/index.html#?manifest=">https://spri-open-resources.s3.us-east-2.amazonaws.com/iiif3dtsg/manifest/index.html#?manifest=</a></li>
+          <li>Kompakkt: <a href="https://blacklodge.hki.uni-koeln.de/viewer/?locale=en&standalone=true&manifest=">https://blacklodge.hki.uni-koeln.de/viewer/?locale=en&standalone=true&manifest=</a></li>
+        </ul>
+      </div>
     </div>
       
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
