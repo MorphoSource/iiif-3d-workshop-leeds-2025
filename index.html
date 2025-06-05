@@ -16,6 +16,36 @@
 
       <div class="section">
         <h3>
+          Exercise
+        </h3>
+        <p>Here we are going to practically show a modification of a 3D IIIF manifest and how it can be viewed in multiple viewers. This will require a GitHub account, so please <a href="https://github.com/signup">make one</a> if you have not already.</p>
+        <p>We will use the manifest <a href="https://raw.githubusercontent.com/IIIF/3d/main/manifests/4_transform_and_position/model_transform_translate_scale_position.json">https://raw.githubusercontent.com/IIIF/3d/main/manifests/4_transform_and_position/model_transform_translate_scale_position.json</a> for this exercise.</p>
+
+        <ol>
+          <li>Copy the model URL to your clipboard. Go to <a href="https://veholder.org/iiif3d/test.php">IIIF 3D Manifest URL Tester</a> and paste the model into the field there. This will give you links to view the manifest in different viewers. Look at how the manifest is displayed in one or more viewers.</li>
+          <li>Now open the manifest JSON directly in your browser and examine its structure.</li>
+          <li>Next, we will modify the manifest - not by editing the JSON directly, though! We will load it in a demo IIIF-enabled version of Smithsonian's Voyager scene editor for editing 3D scenes on the web: <a href="https://si-iiif-demo.glitch.me/?document=https://raw.githubusercontent.com/IIIF/3d/main/manifests/4_transform_and_position/model_transform_translate_scale_position.json">Scene Editor</a></li>
+          <li>In the Scene Editor, try moving one of the two astronauts relative to the other.</li>
+          <li>Once you are happy with your changes, click the download button to save a new IIIF manifest with your changes included.</li>
+          <li>To get your new manifest a URL, we are going to create a new GitHub Gist. Go to <a href="https://gist.github.com/">https://gist.github.com/</a> and paste your new manifest JSON into the text area. Give it a name like "My Modified 3D Manifest" and click "Create public gist". Then click the "Raw" button and copy into your clipboard the URL of the page it takes you to. This is a URL for your manifest JSON that you can load into a variety of viewers.</li>
+          <li>Now go back to the <a href="https://veholder.org/iiif3d/test.php">IIIF 3D Manifest URL Tester</a> and paste your new manifest URL into the field. This will give you links to view your modified manifest in different viewers. Try out your new manifest in one or more viewers.</li>
+          <li>Finally, open the manifest JSON directly and examine its structure. Compare to the original manifest to see what changed!</li>
+        </ol>
+      </div>
+
+      <div class="section">
+        <h3>
+          Additional Resources
+        </h3>
+        <p>We've put together a Google Doc with a wide array of other resources. Below, you'll also find a sub-section of those resources most appropriate to the exercise above.</p>
+
+        <ul>
+          <li><a href="https://docs.google.com/document/d/1y2BfTIHnC3c61ymPNY_uVv6pcfILV3drgcAOGqPNe6M/edit?tab=t.0#heading=h.4z43z64czj7h">Additional resources document</a></li>
+        </ul>
+      </div>
+
+      <div class="section">
+        <h3>
           3D Manifests
         </h3>
         <p>All of the 3D TSG manifests can be found <a href="https://github.com/IIIF/3d/tree/main/manifests">here</a>, but we list specific useful manifests and some manifests outside the 3D TSG collection below.</p>
@@ -34,7 +64,7 @@
         <p>Paste a manifest URL in this tool and it will give you links to all the viewers loading that manifest.</p>
 
         <ul>
-          <li>Secure URL Builder: <a href="https://veholder.org/iiif3d/test.php">https://veholder.org/iiif3d/test.php</a></li>
+          <li>IIIF 3D Manifest URL Tester: <a href="https://veholder.org/iiif3d/test.php">https://veholder.org/iiif3d/test.php</a></li>
         </ul>
       </div>
 
